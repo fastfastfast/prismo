@@ -10,7 +10,6 @@ describe('CryptoService', () => {
         }).compile();
 
         service = module.get<CryptoService>(CryptoService);
-        service.onModuleInit(); // Initialize keys
     });
 
     it('should be defined', () => {
