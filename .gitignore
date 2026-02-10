@@ -1,0 +1,25 @@
+# compiled output
+/dist
+/node_modules
+
+# logs
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# testing
+/coverage
+
+# local env files
+.env
+.env.test
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# operating system
+.DS_Store
+Thumbs.db
